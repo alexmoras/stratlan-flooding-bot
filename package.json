@@ -1,0 +1,19 @@
+{
+  "name": "stratlan-flooding-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot that checks the Gov.UK Flooding API for Stratford-upon-Avon and alerts a channel when flooding is likely.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": {
+    "name": "Alexander Moras",
+    "email": "hello@alexmoras.com",
+    "url": "alexmoras.com"
+  },
+  "license": "GPL-3.0",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "discord.js": "^11.5.1"
+  }
+}
